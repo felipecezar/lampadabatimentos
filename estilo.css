@@ -1,0 +1,51 @@
+body {
+  margin: 0 auto;
+  background-color: #333;
+  max-width: 300px;
+  font-family: Roboto;
+  color: white;
+}
+
+canvas {
+  margin-top: 20px;
+  cursor: crosshair;
+}
+
+
+.botao{
+  margin:auto;
+  margin-top:20px;
+  background:gray;
+  border-radius:5px;
+  color:white;
+  cursor:pointer;
+  font-family:Roboto,sans-serif;
+  font-size:1.9em;
+  height:65px;
+  letter-spacing:.2px;
+  line-height:65px;
+  text-align:center;
+  user-select:none;
+  width:150px;
+  transition:none;
+}
+
+.esconder{
+    display: none;
+}
+
+.botao:hover {
+  background:green;
+}
+.imagem{
+    margin:auto;
+    width: 100px;
+}
+.seletorCor{
+    margin:auto;
+    width: 300px;
+}
+
+svg {
+    width: 100%;
+}

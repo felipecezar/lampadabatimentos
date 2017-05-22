@@ -1,0 +1,15 @@
+{
+  "name": "Lampada BLE",
+  "sort_name": "Lampada Bluetooth",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192"
+    }
+  ],
+  "theme_color":"#3F51B5",
+  "background_color": "#F5F5F5",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "./lampada/index.html"
+}
